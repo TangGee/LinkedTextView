@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.mepty.android.libs.LinkTextView
+        android:id="@+id/lv"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#447de9"
+            android:lineSpacingExtra="3dp"
+            android:id="@+id/tv_wraingtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignBottom="@id/tv_wraingtext"
+            android:textColor="#E94444"
+            android:id="@+id/tv_link"
+            android:textSize="20sp"
+            android:text="link"
+            android:layout_alignRight="@id/tv_wraingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.mepty.android.libs.LinkTextView>
+
+
+    <com.mepty.android.libs.LinkTextView
+        android:id="@+id/lv2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#447de9"
+            android:lineSpacingExtra="3dp"
+            android:id="@+id/tv_wraingtext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#E94444"
+            android:id="@+id/tv_link2"
+            android:textSize="20sp"
+            android:text="link"
+            android:layout_alignRight="@id/tv_wraingtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.mepty.android.libs.LinkTextView>
+</LinearLayout>
